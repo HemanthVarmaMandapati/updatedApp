@@ -1,0 +1,50 @@
+/* File: src/components/StatusGrid.css */
+
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .status-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .status-box {
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+  }
+  
+  .completed {
+    background-color: #28a745;
+  }
+  
+  .in-progress {
+    background-color: #007bff;
+  }
+  
+  .failed {
+    background-color: #dc3545;
+  }
+  
+  .yet-to-start {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .data-table th,
+  .data-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
