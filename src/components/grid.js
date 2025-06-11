@@ -77,7 +77,7 @@ export default function CarGrid(stitchInfo) {
     });
     setRowData(filtered);
     setFilteredData(filtered);
-  };
+  }; 
 
   const handleExport = () => {
     exportToExcel(filteredData, "exported_data");
